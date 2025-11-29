@@ -67,7 +67,7 @@ export const Contact: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-2">Message Sent!</h3>
                   <p className="text-gray-400">Thanks for reaching out. Someone from our team will be in touch shortly.</p>
-                  <Button variant="outline" className="mt-8" onClick={() => setSubmitted(false)}>Send Another</Button>
+                  <Button variant="primary" className="mt-8" onClick={() => setSubmitted(false)}>Send Another</Button>
                </div>
              ) : (
                <form onSubmit={handleSubmit} className="space-y-6">

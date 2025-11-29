@@ -13,6 +13,7 @@ export interface Location {
   address: string;
   phone: string;
   coordinates: { x: number; y: number }; // For SVG map
+  image?: string;
 }
 
 export interface Testimonial {

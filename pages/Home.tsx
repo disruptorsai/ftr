@@ -12,11 +12,12 @@ export const Home: React.FC = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Video */}
-        <video 
-          autoPlay 
-          muted 
-          loop 
-          playsInline 
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          poster="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
         >
           <source src="https://videos.files.wordpress.com/r1bEuvdt/ftr-cover-video.mp4" type="video/mp4" />
@@ -150,7 +151,7 @@ export const Home: React.FC = () => {
                  <p className="text-gray-600 mb-8 leading-relaxed">
                    Recovery is more than just abstinence. It's about building a life filled with purpose, connection, and joy. Hear from our community.
                  </p>
-                 <Button variant="outline" className="border-brand-dark text-brand-dark hover:bg-brand-dark hover:text-white">
+                 <Button variant="secondary">
                    Read More Stories
                  </Button>
               </div>

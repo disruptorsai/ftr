@@ -54,11 +54,11 @@ export const PILLARS: (Program & { type: PillarType, lucideIcon: any })[] = [
 ];
 
 export const LOCATIONS: Location[] = [
-  { id: 'slc-main', name: 'SLC Main Gym', address: '1331 S Major St, Salt Lake City, UT', phone: '(801) 410-8988', coordinates: { x: 45, y: 30 } },
-  { id: 'slc-annex', name: 'SLC Creative Annex', address: '1335 S Major St, Salt Lake City, UT', phone: '(801) 410-8988', coordinates: { x: 47, y: 32 } },
-  { id: 'provo', name: 'Provo Location', address: '555 W Center St, Provo, UT', phone: '(801) 875-0603', coordinates: { x: 46, y: 55 } },
-  { id: 'park-city', name: 'Park City', address: '1776 Park Ave, Park City, UT', phone: '(801) 555-0123', coordinates: { x: 60, y: 28 } },
-  { id: 'heber', name: 'Heber City', address: '55 E Center St, Heber City, UT', phone: '(801) 555-0124', coordinates: { x: 62, y: 35 } },
+  { id: 'slc-main', name: 'SLC Main Gym', address: '1331 S Major St, Salt Lake City, UT', phone: '(801) 410-8988', coordinates: { x: 45, y: 30 }, image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80' },
+  { id: 'slc-annex', name: 'SLC Creative Annex', address: '1335 S Major St, Salt Lake City, UT', phone: '(801) 410-8988', coordinates: { x: 47, y: 32 }, image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80' },
+  { id: 'provo', name: 'Provo Location', address: '555 W Center St, Provo, UT', phone: '(801) 875-0603', coordinates: { x: 46, y: 55 }, image: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80' },
+  { id: 'park-city', name: 'Park City', address: '1776 Park Ave, Park City, UT', phone: '(801) 555-0123', coordinates: { x: 60, y: 28 }, image: 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80' },
+  { id: 'heber', name: 'Heber City', address: '55 E Center St, Heber City, UT', phone: '(801) 555-0124', coordinates: { x: 62, y: 35 }, image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80' },
 ];
 
 export const TESTIMONIALS: Testimonial[] = [

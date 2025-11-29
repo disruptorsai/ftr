@@ -15,10 +15,14 @@ export const Locations: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-8">
           {LOCATIONS.map((loc) => (
             <div key={loc.id} className="bg-zinc-900 rounded-3xl overflow-hidden border border-white/5 flex flex-col">
-               {/* Map Placeholder Area */}
+               {/* Location Image */}
                <div className="h-48 bg-zinc-800 relative overflow-hidden group">
-                  <div className="absolute inset-0 bg-[url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Salt_Lake_City_montage_19_July_2011.jpg/800px-Salt_Lake_City_montage_19_July_2011.jpg')] bg-cover bg-center grayscale opacity-50 group-hover:scale-105 transition-transform duration-700"></div>
-                  <div className="absolute inset-0 bg-brand-dark/50"></div>
+                  <img
+                    src={loc.image}
+                    alt={loc.name}
+                    className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-80 group-hover:scale-105 transition-all duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/80 to-transparent"></div>
                   <div className="absolute bottom-4 left-4">
                      <span className="bg-brand-red text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Open Now</span>
                   </div>
